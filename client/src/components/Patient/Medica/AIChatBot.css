@@ -1,0 +1,21 @@
+.main-div123{
+    /* display: flex; */
+    height: 90vh
+}
+.footer123{
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+.footer-input123{
+    flex-grow: 1;
+    width : 80%;
+    resize: none;
+    padding: 8px;
+}
+
+.footer123 button {
+    flex: 1; /* Make buttons take equal width */
+    height: auto; /* Make buttons adjust height based on content */
+    padding: 12px 16px; /* Adjust padding for buttons */
+}

@@ -1,0 +1,156 @@
+/* FileUpload.css */
+
+.file-upload-background {
+  background-image: url('../../../../static/patientfile_uploadbackground.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+
+.btn {
+  background-color: #1161ee;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-right: 50px;
+}
+
+.btn.back-btn {
+  background-color: #c5d029;
+}
+
+.btn.back-btn:hover {
+  background-color: #d4da60;
+}
+
+/*.submit-btn {
+  background-color: blue; /* Default background color for the submit button 
+  color: white; /* Default text color for the submit button 
+}
+
+.submit-btn:hover {
+  background-color: rgb(44, 196, 57); /* Change background color on hover 
+}*/
+
+
+.drop_box {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.back-btn {
+  color: black;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  border: 2px solid transparent;
+}
+
+.card {
+  width: 400px;
+  padding: 20px;
+  background-color: #8ec3cd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+h3 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+
+.drop_box input[type="file"] {
+  display: none;
+}
+
+.drop_box .browse-btn {
+  display: inline-block;
+padding: 10px 20px;
+width: 200px; /* Set a fixed width for the label */
+max-width: 100%; /* Allow the label to grow up to 100% of its container */
+white-space: nowrap; /* Prevent text from wrapping */
+overflow: hidden; /* Hide overflowing text */
+text-overflow: ellipsis; /* Display ellipsis (...) for overflowed text */
+background-color: #007bff;
+color: #fff;
+border-radius: 5px;
+cursor: pointer;
+margin-bottom: 20px;
+}
+
+.drop_box .browse-btn:hover {
+  background-color: #3dac49;
+}
+
+.drop_box .browse-btn span {
+  margin-right: 10px;
+}
+
+.drop_box input[type="file"] {
+  display: block;
+  opacity: 0;
+  width: 0.1px;
+  height: 0.1px;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+.drop_box label {
+  display: inline-block;
+  padding: 10px 15px;
+  width: auto;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.drop_box label:hover {
+  background-color: #0056b3;
+}
+
+.drop_box .submit-btn, .drop_box .back-btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.drop_box .submit-btn:hover,.drop_box .back-btn:hover {
+  background-color: #0056b3;
+}
+
+.drop_box .submit-btn {
+  background-color: #28a745; /* Green color for the Submit button */
+}
+
+.drop_box .submit-btn:hover {
+  background-color: #218838; /* Darker green color on hover */
+}
+
+.drop_box .back-btn {
+  background-color: #dc3545; /* Red color for the Back button */
+}
+
+.drop_box .back-btn:hover {
+  background-color: #c82333; /* Darker red color on hover */
+}
+
+
+
+/* Add more styles as needed */

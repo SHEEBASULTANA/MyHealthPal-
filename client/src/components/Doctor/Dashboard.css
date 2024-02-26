@@ -1,0 +1,42 @@
+/* Dashboard.css */
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+.doctordashboardcontainer {
+    display: grid;
+    /*flex-wrap: wrap;*/
+    grid-template-columns: repeat(auto-fill, minmax(calc(33.33% - 20px), 1fr)); /* Three columns per row */
+    gap: 20px; /* Adjust as needed */
+    padding: 20px;
+    justify-content: space-between;
+    min-height: 100%;
+}
+
+.indoctorpatientcontainer {
+    /*width: calc(33.33% - 10px);*/
+    border: 1px solid #0c0c0c;
+    border-radius: 5px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+/*.indoctorpatientcontainer:hover {
+    background-color: #9dd8e6; /* Change color on hover if needed 
+}*/
+
+.logout-container {
+    border: 1px solid #0c0c0c;
+    border-radius: 5px;
+    padding: 30px 20px;
+    cursor: pointer;
+    /*grid-column: span 3; /* Span all columns */
+    width: calc(33.33% - 20px); /* Adjust the width to fit one column with margin */
+    box-sizing: border-box; 
+}
+.indoctorpatientcontainer:hover, .logout-container:hover {
+    background-color: #9dd8e6; /* Change color on hover if needed */
+}

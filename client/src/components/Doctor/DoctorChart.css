@@ -1,0 +1,34 @@
+.doctorcharttopnavbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f6faf7;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  .doctorcharttopnavbar button {
+    padding: 10px 20px;
+    background-color: #320763;
+    color: white;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+  }
+  
+  .doctorcharttopnavbar button:hover {
+    background-color: #66acc7
+  }
+
+  .main-chart-div{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    
+  }
+  .sub-chart-div{
+    width: 50%;
+  }
