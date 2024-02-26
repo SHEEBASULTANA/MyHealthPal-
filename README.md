@@ -127,7 +127,9 @@ Start the server
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/SHEEBASULTANA/MyHealthPal-/blob/main/test%20screenshots/homepage.jpeg?raw=true)
+![App Screenshot](https://github.com/SHEEBASULTANA/MyHealthPal-/blob/main/test%20screenshots/file%20upoad%20edit%20values.jpeg?raw=true)
+![App Screenshot](https://github.com/SHEEBASULTANA/MyHealthPal-/blob/main/test%20screenshots/graphs.jpeg?raw=true)
 
 
 ## Tech Stack
